@@ -1,0 +1,19 @@
+/* Tailwindcss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Defined class styles using apply */
+
+.jumbotron {
+  @apply px-4 pb-1 rounded-md font-semibold text-orange-800 text-xl border-2 border-orange-600 bg-transparent hover:bg-orange-600 hover:text-white;
+}
+.decBtn {
+  @apply text-lg text-white border bg-red-500 rounded-md w-[100px] py-[3px] hover:text-white hover:bg-red-600;
+}
+.resetBtn {
+  @apply text-lg text-white border bg-gray-500 rounded-md w-[100px] py-[3px] hover:text-white hover:bg-gray-600;
+}
+.incBtn {
+  @apply text-lg text-white border bg-green-400 rounded-md w-[100px] py-[3px] hover:text-white hover:bg-green-500;
+}
